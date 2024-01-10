@@ -1,0 +1,41 @@
+/* 초기화 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  background-color: #E5E0FF;
+  width: 100%;
+  height: 100vh;
+}
+
+.container .header {
+  width: 80%;
+  height: 120px;
+  margin: 0 auto; /* 중앙 정렬 */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.menu-item {
+  display: inline-block;
+  padding: 60px;
+}
+
+.menu-item a {
+  font-size: 20px;
+  font-weight: bold;
+  color: #7286D3;
+}
+
+.menu-item.logo {
+  padding: 100px;
+}
